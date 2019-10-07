@@ -68,12 +68,11 @@ body {
 #burgermenus {
   position: absolute;
   top: 38px;
-  right: 0;
-  margin: 5px 5px 0 0;
-  background-color: white; }
+  width: calc(100% - 10px);
+  background-color: #1b6898; }
 
-.burgermenu {
-  color: black; }
+#burgermenu {
+  border: solid 1px lightgray; }
 
 #burger {
   display: none;
@@ -87,8 +86,8 @@ body {
 .burgerwhite {
   background-image: url("../images/burger.png"); }
 
-.burgergold {
-  background-image: url("../images/burgergold.png"); }
+.burgerclose {
+  background-image: url("../images/close.png"); }
 
 .menu:hover {
   background-color: #0087a5;
@@ -172,6 +171,9 @@ body {
     display: none; }
 
   #burger {
-    display: flex; } }
+    display: flex; }
+
+  .catproduit {
+    width: 100%; } }
 
 /*# sourceMappingURL=home.css.map */

@@ -16,11 +16,11 @@ body{
 .h1, .h2{
 	font-family: 'Roboto Slab';
 	font-size: 40px;
-	background-color: $font-color;
+	background-color: $font_color_principle;
 	padding: 10px;
 }
 .h1{
-	color: #dba44c;
+	color: $font_color_secondaire;
 	padding-right: 0;
 }
 .h2{
@@ -28,7 +28,7 @@ body{
 	padding-left: 0;
 }
 .h3{
-	color: $font-color;
+	color: $font_color_principle;
 	font-size: 20px;
 	font-weight: bold;
 	padding-right: 0;
@@ -37,7 +37,7 @@ body{
 	border-bottom: solid 1px lightgray;
 }
 .header{
-	background-color: $font-color;
+	background-color: $font_color_principle;
 	width: 100%;
 	margin: 5px 5px 0px 5px;
 	display: flex;
@@ -68,13 +68,11 @@ body{
 #burgermenus{
 	position: absolute;
 	top: 38px;
-	right: 0;
-	margin: 5px 5px 0 0;
-	background-color: white;
-
+	width: calc(100% - 10px);
+	background-color: $font_color_principle;
 }
-.burgermenu{
-	color: black;
+#burgermenu{
+	border: solid 1px lightgray;
 }
 #burger{
 	display: none;
@@ -88,8 +86,8 @@ body{
 .burgerwhite{
 	background-image: url($url_image + "burger.png");
 }
-.burgergold{
-	background-image: url($url_image + "burgergold.png");
+.burgerclose{
+	background-image: url($url_image + "close.png");
 }
 .menu:hover{
 	background-color: rgb(0, 135, 165);
@@ -99,7 +97,7 @@ body{
 	width: 100%;
 }
 .slider{
-	background-color: $font-color;
+	background-color: $font_color_principle;
 	background: url($url_image + "hero_image_1.jpg");
 	background-size: cover;
 	background-position: center;
@@ -154,13 +152,13 @@ body{
 }
 .button{
 	width: 280px;
-	background-color: $font-color;
+	background-color: $font_color_principle;
 	padding: 5px;
 	color: white;
 	border: none;
 }
 .footer{
-	background-color: $font-color;
+	background-color: $font_color_principle;
 	width: 100%;
 	height : 35px;	
 	margin: 5px;
