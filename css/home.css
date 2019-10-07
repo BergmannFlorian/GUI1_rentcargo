@@ -45,7 +45,7 @@ body {
   min-height: 38px; }
 
 .logo {
-  background-image: url("./images/logo.png");
+  background-image: url("../images/logo.png");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,10 +85,10 @@ body {
   margin-right: 10px; }
 
 .burgerwhite {
-  background-image: url("./images/burger.png"); }
+  background-image: url("../images/burger.png"); }
 
 .burgergold {
-  background-image: url("./images/burgergold.png"); }
+  background-image: url("../images/burgergold.png"); }
 
 .menu:hover {
   background-color: #0087a5;
@@ -99,7 +99,7 @@ body {
 
 .slider {
   background-color: #1b6898;
-  background: url("./images/hero_image_1.jpg");
+  background: url("../images/hero_image_1.jpg");
   background-size: cover;
   background-position: center;
   margin: 0px 5px 0px 5px;
@@ -164,6 +164,9 @@ body {
   height: 35px;
   margin: 5px; }
 
+@media (min-width: 606px) {
+  #burgermenus {
+    display: none; } }
 @media (max-width: 606px) {
   .menus {
     display: none; }
